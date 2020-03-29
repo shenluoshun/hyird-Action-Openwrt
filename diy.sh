@@ -128,6 +128,7 @@ EOF
 
 cat << EOF >> target/linux/x86/config-4.19
 CONFIG_HSA_AMD=n
+CONFIG_MTD_SBC_GXX=y
 EOF
 
 
